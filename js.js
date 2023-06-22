@@ -19,7 +19,7 @@ function handleCellClick(e) {
   if (checkWin()) {
     setTimeout(function () {
       alert(`${currentPlayer} Wins`);
-    }, 500);
+    }, 1000);
     setTimeout(function () {
       resetBoard();
     }, 500);
